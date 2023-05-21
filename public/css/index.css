@@ -10,11 +10,11 @@ h1 {
     color: blue;
 }
 
+.box
 div {
     background: green;
 }
-
-div p {
+.box p {
     background: red;
 }
 
@@ -117,8 +117,7 @@ li:first-child {
     color: red;
  }
 
- .lesson-three-task-ten
- p::first-line {
+ .lesson-three-task-ten::first-line {
     background: yellow;
  }
  .lesson-three-task-eleven
