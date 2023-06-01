@@ -1,0 +1,165 @@
+/* :root {
+  background: purple;
+}
+html {
+  max-width: 720px;
+
+  background: blue;
+}
+
+body {
+  background: #fff;
+}
+
+*{
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+.box {
+  background: #c2b1b1;
+}
+
+#user, .user {
+  color: blue
+}
+
+h1,
+h2#user,
+button {
+  color:green;
+}
+
+button.button {
+  background: red;
+  color: black;
+}
+
+div > p {
+  color: paleturquoise;
+}
+footer >.user {
+  color: palevioletred;
+}
+
+footer > h1 {
+  color: paleturquoise;
+}
+footer em {
+  color: paleturquoise;
+} */
+
+/* .card-dark {
+  background: #cfcaca;
+} */
+
+/* .item {
+  color: green;
+}
+
+.item:first-child {
+  color: blue;
+}
+
+.item:last-child {
+  color: red;
+} */
+.card-dark {
+  background: #bbb6b6
+}
+.input-dark {
+  background: #9b9999
+}
+.input-dark[required] {
+  background: #8d2b2b
+}
+.input-dark[type="number"] {
+  background: #48d3d8
+}
+.small-img[alt~="small"] {
+  height: 500px;
+}
+a[rel~="external"] {
+  color: green;
+}
+button[class|="btn"] {
+  background: rgb(148, 122, 172)
+}
+a[class*="btn"] {
+  background: rgb(224, 27, 159)
+}
+.btn::first-letter {
+  color: red;
+}
+
+.big-text::first-line {
+  color:rgb(212, 75, 33)
+}
+
+.input-dark::placeholder {
+  color: green
+}
+.big-text::before {
+  content: "$$$";
+  color: green;
+}
+
+#test:target {
+  color:red;
+}
+.link:link {
+  color: red;
+}
+.link:hover {
+  color: green;
+}
+.link:active {
+  color: purple;
+}
+input {
+  background: grey;
+}
+
+input:focus {
+  background-color: red;
+}
+button {
+  background: greenyellow;
+}
+button:enabled {
+  background-color: green;
+}
+button:disabled {
+  background-color: aqua
+}
+
+.inp:read-write {
+  background: blue;
+}
+.inp:read-only {
+  background: red;
+}
+input[type="checkbox"]:checked  ~ span {
+  background: red;
+}
+.valid:valid {
+  background: rgb(241, 220, 97);
+}
+.valid:invalid {
+  background: rgb(228, 95, 199);
+}
+.valid:optional {
+  background: rgb(49, 183, 216);
+}
+.number:focus {
+  background: grey;
+}
+.number:out-of-range {
+  background: red;
+}
+input:placeholder-shown ~ span {
+  background: pink;
+}

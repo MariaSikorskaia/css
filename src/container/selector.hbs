@@ -1,0 +1,48 @@
+<style>
+    .card-dark {
+        background: #c0bdbd
+    }
+    .card:active {
+         background: purple
+    }
+    .card:focus-within {
+    background: red;
+    }
+    .card:lang(en) {
+        background: yellow;
+    }
+</style>
+<div lang="fr" class="card card-dark p-5 m-5">
+    <a class="link" href="https://www.youtube.com/">Click me</a>
+</div>
+</div>
+<div lang="en" id="test" class="card card-dark p-5 m-5">
+    <input>
+    <button>Test button</button>
+</div>
+<div class="card-dark p-5 m-5">
+    <button>Test button</button>
+    <button disabled>Disabled button</button>
+</div>
+<div class="card-dark p-5 m-5">
+   <input class="inp" readonly>
+   <div class="mt-5">
+    <div>
+   <input type="checkbox" checked>
+   <span>First checkbox</span>
+    </div>
+    <div>
+    <input type="checkbox">
+    <span>Second checkbox</span>
+    </div>
+   </div>
+</div>
+<div class="card-dark p-5 m-5">
+    <div>
+    <input type="email" class="valid" placeholder="test">
+    <span>Test text</span>
+    </div>
+    <div class="mt-5">
+        <input type="number" min="10" max="20" required class="number">
+    </div>
+</div>
