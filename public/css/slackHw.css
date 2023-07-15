@@ -140,6 +140,7 @@ body {
         align-items: center;
         gap: var(--spacing-8);
         margin: 48px;
+        margin-left: 164px;
     }
     .customer_content {
         font-size: var(--size-4);
@@ -248,7 +249,7 @@ body {
     }
     @media all and (width < 400px) {
          .features_grid_4 {
-            flex-wrap: wrap;
+            flex: 0 0 50%;
         } 
         .feat_card_2 {
             flex-wrap: wrap;
