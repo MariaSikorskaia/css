@@ -1,0 +1,17 @@
+<header class="header row g-0">
+        <div class="col-3">
+          {{> logo}}
+        </div>
+        <nav class="header_nav col-9">
+           <div class="header_nav_right">
+            {{> nav links=header}}
+           </div>
+        </nav>
+</header>
+ <div class="ad">
+    <btutton class="ad_button">
+    <span class="ad_text">Ad</span>  
+    </btutton>
+    <a class="ad_link" href="{{header.ad.url}}">{{header.ad.text}}</a>
+    <span class="ad_users">Users online: 10</span>
+</div>

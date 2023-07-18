@@ -1,0 +1,15 @@
+<div class="articles">
+<h2 class="articles_title">Our Articles</h2>
+<a href="#" class="buttonTop">View All</a>
+</div>
+<div class="card">
+{{#each articles}}
+<div class="card_content">
+      <div class="card_image" style="background-image: url({{photo}})"></div>
+       <h2 class="card_title">{{name}}</h2> 
+       <p class="card_text">{{description}}</p>
+       <a class="card_buttonnew" href="#">{{#if isNew}}New{{/if}}</a> 
+       <a href="#" class="card_button">Read All</a>
+</div>
+{{/each}}
+</div>
