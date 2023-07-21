@@ -54,6 +54,11 @@
         }
         .page_section_spend {
             background-color: var(--color-light);
+            width: 100%;
+        }
+        .spend_icon {
+            height: 48px;
+            width: 48px;
         }
         .feat_icon {
             height: 48px;
@@ -218,6 +223,7 @@ body {
         position: absolute;
         top: 60px;
         right: 156px;
+        padding-bottom: 19px;
     }
     .spend_description {
         font-size: var(--size-2);
@@ -236,12 +242,16 @@ body {
         width: 300px;
         position: relative;
         line-height: 150%;
+        height: 250px;
     }
-
+    .card_small {
+        padding: var(--spacing-4);
+        height: 116px;
+    }
     .spend_link {
         position: absolute;
-        bottom: 16px;
-        right: 16px;
+        bottom: 13px;
+        right: 14px;
     }
     .spend_grid_4 {
         display: flex;
@@ -254,8 +264,8 @@ body {
         display: flex;
         flex-direction: column;
         gap: 16px;
-        
     }
+    
     .customer_section {
         display: flex;
         width: 1020px;
@@ -269,10 +279,10 @@ body {
          letter-spacing: -0.3px;
          line-height: 150%;
     }
-
     .deliv_image {
         padding-top: var(--spacing-5);
     }
+
     .customer_info {
         padding-top: var(--spacing-5);
         font-size: var(--size-1);
@@ -347,6 +357,7 @@ body {
         .page_content {
             max-width: var(--page-width-medium);
         } 
+
         .hero_image {
             left: 518px;
             height: 300px;
@@ -374,10 +385,30 @@ body {
         .features_section {
             background: none;
         }
+        .spend_grid_4 {
+            flex-direction: column;
+            margin-left: 10px;
+        }
+        .section_explore {
+            flex-direction: column;
+            margin-left: 275px;
+        }
+        .customer_section {
+            flex-direction: column;
+        }
+        .customer_content {
+            margin-left: 100px;
+        }
+        .deliv_image {
+            margin-right: 400px;
+        }
     }
     @media all and (width < 600px) {
         .features_grid_4 {
             grid-template-columns: repeat(2, 2fr);
+        }
+        .spend_section {
+            background: none;
         }
     }
     @media all and (width < 400px) {
@@ -387,6 +418,13 @@ body {
         .hero_buttons {
             grid-template-columns: 1fr;
             gap: var(--spacing-2);
+        }
+        .spend_section {
+            background: none;
+        }
+        .spend_grid_4 {
+            flex-direction: column;
+            margin-left: 0;
         }
     }
 }
