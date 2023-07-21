@@ -52,6 +52,9 @@
         .page_section_light {
             background-color: var(--color-light);
         }
+        .page_section_spend {
+            background-color: var(--color-light);
+        }
         .feat_icon {
             height: 48px;
             width: 48px;
@@ -198,7 +201,142 @@ body {
     .features_grid_4 > .feat_card:first-of-type {
         grid-row: 1 / 3;
     }
+
+    .spend_section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        display: grid;
+        gap: var(--spacing-5);
+        background-image: url('/img/featurehw.png');
+        background-repeat: no-repeat;
+        background-position: top left;
+        position: relative;
+    }
+
+    .spend_title {
+        font-size: var(--size-6);
+        position: absolute;
+        top: 60px;
+        right: 156px;
+    }
+    .spend_description {
+        font-size: var(--size-2);
+        max-width: 520px;
+        line-height: var(--line-height);
+        position: absolute;
+        top: 120px;
+        right: 105px;
+    }
+    .spend_card {
+        padding: var(--spacing-3);
+        background-color: var(--color-white);
+        gap: var(--spacing-3);
+        font-size: var(--size-2);
+        box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+        width: 300px;
+        position: relative;
+        line-height: 150%;
+    }
+
+    .spend_link {
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+    }
+    .spend_grid_4 {
+        display: flex;
+        justify-content: space-between;
+        gap: var(--spacing-3);
+        margin-top: 90px;
+        margin-left: 310px;
+    }
+    .spend_gread_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        
+    }
+    .customer_section {
+        display: flex;
+        width: 1020px;
+        align-items: center;
+        gap: var(--spacing-8);
+        margin: 48px;
+        margin-left: 164px;
+    }
+    .customer_content {
+        font-size: var(--size-4);
+         letter-spacing: -0.3px;
+         line-height: 150%;
+    }
+
+    .deliv_image {
+        padding-top: var(--spacing-5);
+    }
+    .customer_info {
+        padding-top: var(--spacing-5);
+        font-size: var(--size-1);
+    }
+    .section_explore {
+      display: flex;
+      justify-content: center;
+      gap: 40px 76px;
+      margin-bottom: 80px;
+    }
+    .explore_title {
+        display: flex;
+        justify-content: center;
+        padding-bottom: var(--spacing-8);
+        font-size: var(--size-6);
+        margin-top: 106px;
+    }
+    .explore_card {
+        box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+        height: 420px;
+        width: 285px;
+        position: relative;
+    }
+    .explore_description {
+        color: #454245;
+        font-size: var(--size-1);
+        line-height: 18px; /* 130% */
+        letter-spacing: 0.1px;
+        padding: var(--spacing-1) var(--spacing-2);
+    }
+    .explore_name {
+        font-size: 24px;
+        line-height: 150%; /* 36px */
+        width: 100%;
+        padding: var(--spacing-1) var(--spacing-2);
+    }
+    .explore_click {
+        color: #1264A3;
+        font-size: 14px;
+        line-height: 16px; /* 112.5% */
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        align-items: end;
+        padding-left: var(--spacing-2);
+        position: absolute;
+        bottom: 16px;
+    }
+    .explore_click {
+        justify-self: flex-end;
+        color: #1264A3;
+    }
+    .arrow_image {
+       position: absolute;
+       bottom: 18px;
+       right: 6px;
+    }
+    .explore_click:hover {
+        opacity: 0.7;
+    }
+    .arrow_image:hover {
+        opacity: 0.7;
+    }
 }
+
 @layer adaptive {
     @media all and (1260px <= width) {
         .page_content {

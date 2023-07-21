@@ -21,11 +21,11 @@
     }
     }
     @layer variant{
-        .page_section_light {
+        .page_section_spend {
             background-color: var(--color-light);
             width: 100%;
         }
-        .feat_icon {
+        .spend_icon {
             height: 48px;
             width: 48px;
         }
@@ -81,7 +81,7 @@ body {
         padding: var(--spacing-3);
     }
 
-    .features_section {
+    .spend_section {
         padding-top: 150px;
         padding-bottom: 150px;
         display: grid;
@@ -92,13 +92,13 @@ body {
         position: relative;
     }
 
-    .features_title {
+    .spend_title {
         font-size: var(--size-6);
         position: absolute;
         top: 60px;
         right: 156px;
     }
-    .features_description {
+    .spend_description {
         font-size: var(--size-2);
         max-width: 520px;
         line-height: var(--line-height);
@@ -106,7 +106,7 @@ body {
         top: 120px;
         right: 105px;
     }
-    .feat_card {
+    .spend_card {
         padding: var(--spacing-3);
         background-color: var(--color-white);
         gap: var(--spacing-3);
@@ -117,19 +117,19 @@ body {
         line-height: 150%;
     }
 
-    .feat_link {
+    .spend_link {
         position: absolute;
         bottom: 16px;
         right: 16px;
     }
-    .features_grid_4 {
+    .spend_grid_4 {
         display: flex;
         justify-content: space-between;
         gap: var(--spacing-3);
         margin-top: 90px;
         margin-left: 310px;
     }
-    .feat_gread_2 {
+    .spend_gread_2 {
         display: flex;
         flex-direction: column;
        gap: 16px;
@@ -238,7 +238,7 @@ body {
         .features_grid_4 > .feat_card:first-of-type {
             grid-row: 1 / 3;
         } */
-        .features_section {
+        .spend_section {
             background: none;
         }
     }
@@ -248,10 +248,10 @@ body {
         } */
     }
     @media all and (width < 400px) {
-         .features_grid_4 {
+         .spend_grid_4 {
             flex: 0 0 50%;
         } 
-        .feat_card_2 {
+        .spend_card_2 {
             flex-wrap: wrap;
         }
         }
