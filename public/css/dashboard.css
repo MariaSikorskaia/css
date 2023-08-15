@@ -490,7 +490,7 @@ body {
         display: none;
       }
       .analytic__block {
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         
       }
       .main__double {
